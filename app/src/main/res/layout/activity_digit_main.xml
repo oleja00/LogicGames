@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kitsyambochka.logicgames.com.kitsyambochka.logicgames.digits.DigitMainActivity">
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_weight="1"
+        android:theme="@style/Animation.AppCompat.DropDownUp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <LinearLayout
+            style="@style/DigitLayouts">
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button1" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button2" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button3" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button4" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button5" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/DigitLayouts">
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button6"/>
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button7" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button8" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button9" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button10" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/DigitLayouts">
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button11" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button12" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button13" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button14" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button15" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/DigitLayouts">
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button16" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button17" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button18" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button19" />
+
+            <Button
+                style="@style/DigitButtons"
+                android:id="@+id/button20" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        style="@style/ButtonStart"
+        android:id="@+id/buttonStart"
+        android:layout_weight="1"/>
+
+</LinearLayout>

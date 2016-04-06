@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kitsyambochka.mybraingames.LittleBrainCalcActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                style="@style/TwentyFourLayouts">
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="1"
+                    android:id="@+id/button1" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="4"
+                    android:id="@+id/button4" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="3"
+                    android:id="@+id/button3" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="6"
+                    android:id="@+id/button6" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/TwentyFourLayouts">
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="+"
+                    android:id="@+id/buttonPlus" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="*"
+                    android:id="@+id/buttonMultiplication" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="/"
+                    android:id="@+id/buttonDivision" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="("
+                    android:id="@+id/buttonBracketSad" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text=")"
+                    android:id="@+id/buttonBracketSmile" />
+
+                <Button
+                    style="@style/TwentyFourLayoutsButtonsDigit"
+                    android:text="-"
+                    android:id="@+id/buttonMinus" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/TwentyFourLayouts">
+
+                <Button
+                    style="@style/TwentyFourLayouts"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/twentyfour_text_size"
+                    android:text="Clear"
+                    android:id="@+id/buttonClear"
+                    android:background="#fb5e5e" />
+
+                <Button
+                    style="@style/TwentyFourLayouts"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/twentyfour_text_size"
+                    android:text="&lt;-"
+                    android:id="@+id/buttonDel"
+                    android:background="#f2f461" />
+
+                <Button
+                    style="@style/TwentyFourLayouts"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/twentyfour_text_size"
+                    android:text="Check"
+                    android:id="@+id/buttonCheck"
+                    android:background="#6ef470" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textView5" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textViewResult" />
+    </LinearLayout>
+
+</ScrollView>

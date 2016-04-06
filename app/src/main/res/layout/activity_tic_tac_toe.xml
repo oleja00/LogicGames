@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kitsyambochka.logicgames.TicTacToe">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton00" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton01" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton02" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalStyle"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton10" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton11" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton12" />
+        </LinearLayout>
+
+        <View
+            style="@style/DividerHorizontalStyle"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton20" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton21" />
+
+            <View
+                style="@style/DividerVerticalStyle"/>
+
+            <ImageButton
+                style="@style/ButtonsForTicTacToe"
+                android:id="@+id/imageButton22" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

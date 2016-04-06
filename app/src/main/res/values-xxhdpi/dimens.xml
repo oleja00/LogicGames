@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="digit_button_size">65dp</dimen>
+    <dimen name="barley_break_size">82dp</dimen>
+
+    <dimen name="big_padding">24dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+
+    <dimen name="twentyfour_text_size">14sp</dimen>
+</resources>

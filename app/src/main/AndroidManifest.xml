@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitsyambochka.logicgames">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/brain"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RulesActivity" />
+        <activity android:name=".TicTacToe" />
+        <activity android:name=".TwentyFour" />
+        <activity android:name=".com.kitsyambochka.logicgames.digits.DigitMainActivity" />
+        <activity android:name=".com.kitsyambochka.logicgames.barleybreak.BarleyBreakActivity" />
+        <activity android:name=".com.kitsyambochka.logicgames.puzzle.PuzzleActivity"></activity>
+    </application>
+
+</manifest>
